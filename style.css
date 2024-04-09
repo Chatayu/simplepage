@@ -93,3 +93,31 @@ height:40%;
     font-size:30px;
     font-weight:600;
 }
+
+
+@media(max-width:300px)
+{
+    .main{
+        width:100px;
+        padding:20px;
+    }
+}
+@media(max-width:768px)
+{
+    .main{
+        width:720px;
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
