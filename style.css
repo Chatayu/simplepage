@@ -1,0 +1,95 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:gilroy;
+}
+html, body{
+    height:100%;
+    width:100%;
+}
+#main
+{
+    height:100%;
+    width:100%;
+}
+#intro
+{
+    height:40%;
+    width:100%;
+    padding:50px;
+}
+#intro h1
+{
+    font-size:90px;
+    line-height:90px;
+    letter-spacing:-3;
+ 
+}
+
+#place
+{
+display:flex;
+align-items:center;
+justify-content:space-between;
+margin-top:15px;
+margin-bottom:10px;
+}
+#hero-image
+{
+    height:500%;
+    width:100%;
+   background-image:url(https://images.unsplash.com/photo-1462804993656-fac4ff489837?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+     background-size:cover;
+  
+}
+#nav
+{
+    display:flex;
+
+    align-items:center;
+    justify-content:flex-end;
+    padding:30px 35px;
+}
+#nav h3{
+ 
+    background-color:black;
+    color:#fff;
+    padding:10px 20px;
+    font-size:10px;
+    border-radius:50px;
+}
+#about
+{
+    height:200%;
+    width:100%;
+   
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:50px 60px;
+    
+  
+}
+#about h2
+{
+
+width:60%;
+font-size:60px;
+line-height:50px;
+padding:3px;
+margin-top:50px;
+border-right:2px solid black;
+
+}
+#aboutpart-2{
+width:36%;
+height:40%;
+
+
+}
+#aboutpart-2 h3{
+
+    font-size:30px;
+    font-weight:600;
+}
